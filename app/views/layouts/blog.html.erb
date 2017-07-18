@@ -17,11 +17,11 @@
     <%= login_helper %>
     
     <%= yield %>
+    
+    <%= render "shared/nav", location: "bottom" %>
     <br>
     <br>
     <%= @copyright %>
-    
-    <%= render "shared/nav", location: "bottom" %>
     
     <%= source_helper("blog") %>
     
