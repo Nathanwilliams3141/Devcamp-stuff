@@ -38,6 +38,10 @@ module ApplicationHelper
         url: portfolios_path,
         title: 'Portfolio'
       },
+      {
+        url: space_news_path,
+        title: 'Space News'
+      },
     ]
   end
   
