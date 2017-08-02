@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -208,3 +208,16 @@ body {
   color: white;
 }
 
+.space-news {
+  color: white;
+  margin: 20px;
+}
+
+.space-news a {
+  color: lightblue;
+}
+
+.space-news > .card {
+  background: image-url('sea.gif') no-repeat;
+  padding: 30px;
+}
