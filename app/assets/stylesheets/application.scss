@@ -233,7 +233,9 @@ body {
 }
 
 .profile-img {
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
 }
 
 .app-card-container a {
@@ -243,4 +245,9 @@ body {
 .card-block {
   margin-top: 8px;
   margin-bottom: 8px;
+}
+
+.skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
