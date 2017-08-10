@@ -68,7 +68,7 @@ module ApplicationHelper
   end
   
   def alert_generator msg
-    js add_gritter(msg, title: "Nathan Williams Portfolio", sticky: false)
+    js add_gritter(msg, title: "Nathan Williams Portfolio", sticky: false, fade_out_speed: 10, time: 1700, :image => :progress)
   end
 
 end
